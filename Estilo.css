@@ -1,0 +1,76 @@
+body {
+    width: 1290px;
+    height: 500px;
+    color: #fff;
+}
+
+.Resto {
+    position: relative;
+    float: left;
+    border-radius: 700px;
+    width: 150px;
+}
+
+h1 {
+    position: relative;
+    font-size: xx-large;
+    bottom: 10px;
+    color: rgb(151, 42, 179);
+    background-color: rgb(23, 20, 32);
+    width: 1041px;
+    height: 58px;
+    padding: 50px;
+    margin-left: 153px;
+}
+
+.Fila {
+    position: relative;
+    font-size: x-large;
+    color: rgb(187, 53, 116);
+    bottom: 30px;
+    background-color: rgb(33, 29, 46);
+    width: 98%;
+    height: auto;
+    padding: 15px;
+}
+
+.Audios {
+    position: relative;
+    background-image: url(Fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 1295px;
+    height: 850px;
+    float: left;
+}
+
+.Auto {
+    position: relative;
+    font-size: x-large;
+}
+
+.Saludos {
+    position: relative;
+    font-size: x-large;
+}
+
+.Clases {
+    position: relative;
+    font-size: x-large;
+}
+
+.BañosPublicos {
+    position: relative;
+    font-size: x-large;
+}
+
+.Ascensor {
+    position: relative;
+    font-size: x-large;
+}
+
+.Bondi {
+    position: relative;
+    font-size: x-large;
+}
