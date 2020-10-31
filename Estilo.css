@@ -74,3 +74,12 @@ h1 {
     position: relative;
     font-size: x-large;
 }
+
+.original {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    float: right;
+    bottom: 180px;
+    border-radius: 700px;
+}
