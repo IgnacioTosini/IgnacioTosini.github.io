@@ -7,9 +7,12 @@ body {
 .Resto {
     position: relative;
     float: left;
-    border-radius: 700px;
+    bottom: 10px;
+    border-radius: 300px;
     width: 150px;
+    height: 150px;
 }
+
 
 h1 {
     position: relative;
@@ -83,4 +86,43 @@ h1 {
     bottom: 180px;
     right: 50px;
     border-radius: 700px;
+}
+
+.renzo {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    float: right;
+    border-radius: 300px;
+    bottom: 200px;
+}
+
+.tochi {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    float: right;
+    border-radius: 300px;
+    bottom: 195px;
+    right: 20px;
+}
+
+.nocita {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    float: right;
+    border-radius: 300px;
+    left: 80px;
+    bottom: 80px;
+}
+
+.pato {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    float: right;
+    border-radius: 300px;
+    left: 298px;
+    bottom: 80px;
 }
