@@ -101,7 +101,7 @@ h1 {
     float: right;
     border-radius: 300px;
     bottom: 200px;
-    right: 30px;
+    right: 80px;
 }
 
 .nocita {
@@ -110,8 +110,8 @@ h1 {
     height: 100px;
     float: right;
     border-radius: 300px;
-    left: 70px;
-    bottom: 80px;
+    left: 20px;
+    bottom: 70px;
 }
 
 .pato {
@@ -121,7 +121,7 @@ h1 {
     float: right;
     border-radius: 300px;
     left: 288px;
-    bottom: 80px;
+    bottom: 70px;
 }
 
 .patoig {
@@ -141,6 +141,7 @@ h1 {
     float: right;
     left: 328px;
     top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .renzoig {
@@ -149,7 +150,7 @@ h1 {
     height: 30px;
     border-radius: 100px;
     float: right;
-    left: 569px;
+    left: 574px;
     bottom: 105px;
 }
 
@@ -157,7 +158,8 @@ h1 {
     position: relative;
     float: right;
     bottom: 115px;
-    left: 461px;
+    left: 457px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .tochiig {
@@ -167,14 +169,15 @@ h1 {
     border-radius: 100px;
     float: right;
     bottom: 105px;
-    left: 345px;
+    left: 315px;
 }
 
 .texto3 {
     position: relative;
     float: right;
-    left: 455px;
+    left: 436px;
     bottom: 115px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .nocitaig {
@@ -183,7 +186,7 @@ h1 {
     height: 30px;
     border-radius: 100px;
     float: right;
-    left: 515px;
+    left: 495px;
     top: 28px;
 }
 
@@ -192,6 +195,7 @@ h1 {
     width: 30px;
     height: 30px;
     float: right;
-    left: 520px;
+    left: 495px;
     top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
