@@ -1,6 +1,6 @@
 body {
     width: 1290px;
-    height: 500px;
+    height: 400px;
     background-color: rgb(22, 21, 21);
     color: white;
 }
@@ -13,7 +13,6 @@ body {
     width: 150px;
     height: 150px;
 }
-
 
 h1 {
     position: relative;
@@ -85,16 +84,6 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.original {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    float: right;
-    bottom: 180px;
-    right: 50px;
-    border-radius: 700px;
-}
-
 .renzo {
     position: relative;
     width: 100px;
@@ -102,6 +91,7 @@ h1 {
     float: right;
     border-radius: 300px;
     bottom: 200px;
+    right: 10px;
 }
 
 .tochi {
@@ -110,8 +100,8 @@ h1 {
     height: 100px;
     float: right;
     border-radius: 300px;
-    bottom: 195px;
-    right: 20px;
+    bottom: 200px;
+    right: 30px;
 }
 
 .nocita {
@@ -120,7 +110,7 @@ h1 {
     height: 100px;
     float: right;
     border-radius: 300px;
-    left: 80px;
+    left: 70px;
     bottom: 80px;
 }
 
@@ -130,7 +120,7 @@ h1 {
     height: 100px;
     float: right;
     border-radius: 300px;
-    left: 298px;
+    left: 288px;
     bottom: 80px;
 }
 
