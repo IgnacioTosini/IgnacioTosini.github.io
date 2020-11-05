@@ -133,3 +133,75 @@ h1 {
     left: 298px;
     bottom: 80px;
 }
+
+.patoig {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    float: right;
+    left: 326px;
+    top: 30px;
+}
+
+.texto1 {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    float: right;
+    left: 328px;
+    top: 20px;
+}
+
+.renzoig {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    float: right;
+    left: 569px;
+    bottom: 105px;
+}
+
+.texto2 {
+    position: relative;
+    float: right;
+    bottom: 115px;
+    left: 461px;
+}
+
+.tochiig {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    float: right;
+    bottom: 105px;
+    left: 345px;
+}
+
+.texto3 {
+    position: relative;
+    float: right;
+    left: 455px;
+    bottom: 115px;
+}
+
+.nocitaig {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    float: right;
+    left: 515px;
+    top: 28px;
+}
+
+.texto4 {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    float: right;
+    left: 520px;
+    top: 20px;
+}
