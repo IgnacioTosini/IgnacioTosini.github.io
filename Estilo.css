@@ -50,36 +50,48 @@ h1 {
 
 .Auto {
     position: relative;
+    background-color: rgba(33, 29, 46, 0.616);
+    width: 300px;
     font-size: x-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .Saludos {
     position: relative;
+    background-color: rgba(33, 29, 46, 0.616);
+    width: 300px;
     font-size: x-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .Clases {
     position: relative;
+    background-color: rgba(33, 29, 46, 0.616);
+    width: 300px;
     font-size: x-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .BañosPublicos {
     position: relative;
+    background-color: rgba(33, 29, 46, 0.616);
+    width: 300px;
     font-size: x-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .Ascensor {
     position: relative;
+    background-color: rgba(33, 29, 46, 0.616);
+    width: 300px;
     font-size: x-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .Bondi {
     position: relative;
+    background-color: rgba(33, 29, 46, 0.616);
+    width: 300px;
     font-size: x-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -91,7 +103,7 @@ h1 {
     float: right;
     border-radius: 300px;
     bottom: 200px;
-    right: 10px;
+    right: 15px;
 }
 
 .tochi {
@@ -198,4 +210,25 @@ h1 {
     left: 495px;
     top: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.spotify {
+    position: relative;
+    border-radius: 20px;
+    float: right;
+    width: 70px;
+    height: 70px;
+    bottom: 25px;
+    right: 20px;
+}
+
+.spotifyl {
+    position: relative;
+    float: right;
+    font-size: 35px;
+    color: rgb(194, 190, 212);
+    background: rgba(225, 225, 225, 0.123);
+    bottom: 10px;
+    text-decoration: none;
+    right: 20px;
 }
