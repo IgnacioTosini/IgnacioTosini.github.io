@@ -50,48 +50,54 @@ h1 {
 
 .Auto {
     position: relative;
-    background-color: rgba(33, 29, 46, 0.616);
+    border-radius: 15px;
     width: 300px;
+    background-color: rgba(33, 29, 46, 0.815);
     font-size: x-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .Saludos {
     position: relative;
-    background-color: rgba(33, 29, 46, 0.616);
+    border-radius: 15px;
     width: 300px;
+    background-color: rgba(33, 29, 46, 0.815);
     font-size: x-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .Clases {
     position: relative;
-    background-color: rgba(33, 29, 46, 0.616);
+    border-radius: 15px;
     width: 300px;
+    background-color: rgba(33, 29, 46, 0.815);
     font-size: x-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .BañosPublicos {
     position: relative;
-    background-color: rgba(33, 29, 46, 0.616);
+    border-radius: 15px;
     width: 300px;
+    background-color: rgba(33, 29, 46, 0.815);
     font-size: x-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .Ascensor {
     position: relative;
-    background-color: rgba(33, 29, 46, 0.616);
+    border-radius: 15px;
     width: 300px;
+    background-color: rgba(33, 29, 46, 0.815);
     font-size: x-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .Bondi {
     position: relative;
-    background-color: rgba(33, 29, 46, 0.616);
+    border-radius: 15px;
     width: 300px;
+    background-color: rgba(33, 29, 46, 0.815);
     font-size: x-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
