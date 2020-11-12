@@ -45,8 +45,26 @@ h1 {
     background-size: cover;
     background-attachment: fixed;
     width: 1290px;
-    height: 850px;
+    height: auto;
     float: left;
+}
+
+.olores {
+    position: relative;
+    background-color: rgba(33, 29, 46, 0.815);
+    width: 300px;
+    font-size: x-large;
+    border-radius: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.panza {
+    position: relative;
+    background-color: rgba(33, 29, 46, 0.815);
+    width: 300px;
+    font-size: x-large;
+    border-radius: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .Auto {
@@ -141,6 +159,11 @@ h1 {
     border-radius: 300px;
     left: 438px;
     bottom: 70px;
+}
+
+.patob {
+    position: relative;
+    bottom: 25px;
 }
 
 .patoig {
