@@ -62,6 +62,7 @@ h1 {
     position: relative;
     background-color: rgba(33, 29, 46, 0.815);
     width: 300px;
+    bottom: 10px;
     font-size: x-large;
     border-radius: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
