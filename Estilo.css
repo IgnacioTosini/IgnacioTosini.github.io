@@ -134,6 +134,8 @@ h1 {
     border-radius: 300px;
     bottom: 200px;
     right: 30px;
+    padding: 3px 3px;
+    background: rgb(34, 15, 143);
 }
 
 .tochi {
@@ -144,6 +146,8 @@ h1 {
     border-radius: 300px;
     bottom: 200px;
     left: 60px;
+    padding: 3px 3px;
+    background: rgb(34, 15, 143);
 }
 
 .nocita {
@@ -154,6 +158,8 @@ h1 {
     border-radius: 300px;
     left: 435px;
     bottom: 70px;
+    padding: 3px 3px;
+    background: rgb(34, 15, 143);
 }
 
 .pato {
@@ -164,11 +170,13 @@ h1 {
     border-radius: 300px;
     left: 438px;
     bottom: 70px;
+    padding: 3px 3px;
+    background: rgb(34, 15, 143);
 }
 
 .patob {
     position: relative;
-    bottom: 25px;
+    left: 13px;
 }
 
 .patoig {
@@ -235,6 +243,11 @@ h1 {
     float: right;
     left: 485px;
     top: 28px;
+}
+
+.nocitab {
+    position: relative;
+    left: 13px;
 }
 
 .texto4 {
