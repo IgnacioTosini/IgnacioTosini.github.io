@@ -19,12 +19,14 @@ h1 {
     position: relative;
     font-size: xx-large;
     bottom: 10px;
-    color: rgb(151, 42, 179);
+    color: rgb(162, 0, 255);
     background-color: rgb(23, 20, 32);
+    background: linear-gradient(130deg, #000000a8, #970097);
     width: 1041px;
     height: 58px;
     padding: 50px;
     margin-left: 153px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .Fila {
@@ -53,7 +55,6 @@ h1 {
     position: relative;
     background-color: rgba(33, 29, 46, 0.815);
     width: 300px;
-    bottom: 20px;
     font-size: x-large;
     border-radius: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -63,7 +64,6 @@ h1 {
     position: relative;
     background-color: rgba(33, 29, 46, 0.815);
     width: 300px;
-    bottom: 20px;
     font-size: x-large;
     border-radius: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -91,7 +91,6 @@ h1 {
     position: relative;
     background-color: rgba(33, 29, 46, 0.815);
     width: 300px;
-    bottom: 20px;
     font-size: x-large;
     border-radius: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -101,7 +100,6 @@ h1 {
     position: relative;
     background-color: rgba(33, 29, 46, 0.815);
     width: 300px;
-    bottom: 10px;
     font-size: x-large;
     border-radius: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -120,10 +118,14 @@ h1 {
     position: relative;
     background-color: rgba(33, 29, 46, 0.815);
     width: 300px;
-    top: 25px;
     font-size: x-large;
     border-radius: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.todos {
+    position: relative;
+    top: 250px;
 }
 
 .renzo {
@@ -135,7 +137,7 @@ h1 {
     bottom: 200px;
     right: 30px;
     padding: 3px 3px;
-    background: rgb(39, 112, 248);
+    background: linear-gradient(130deg, #1c39e0, #470147);
 }
 
 .tochi {
@@ -147,7 +149,7 @@ h1 {
     bottom: 200px;
     left: 60px;
     padding: 3px 3px;
-    background: rgb(39, 112, 248);
+    background: linear-gradient(130deg, #1c39e0, #470147);
 }
 
 .nocita {
@@ -159,7 +161,7 @@ h1 {
     left: 435px;
     bottom: 70px;
     padding: 3px 3px;
-    background: rgb(39, 112, 248);
+    background: linear-gradient(130deg, #1c39e0, #470147);
 }
 
 .pato {
@@ -171,7 +173,7 @@ h1 {
     left: 438px;
     bottom: 70px;
     padding: 3px 3px;
-    background: rgb(39, 112, 248);
+    background: linear-gradient(130deg, #1c39e0, #470147);
 }
 
 .patob {
