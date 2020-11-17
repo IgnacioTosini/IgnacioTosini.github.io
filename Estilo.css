@@ -38,6 +38,8 @@ h1 {
     width: 1262px;
     height: auto;
     padding: 15px;
+    background: linear-gradient(130deg, #0f0022a8, #2a002e);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .Audios {
