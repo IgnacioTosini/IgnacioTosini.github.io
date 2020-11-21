@@ -6,6 +6,24 @@ body {
     color: white;
 }
 
+
+/*1em=16px o dependiendo cuantos px le demos a la caja contenedora estas son medidas relativas*/
+
+
+/*font-width para hacer maás gruesa o más fina las letras*/
+
+
+/*line-height para que la letra ocupe más o menos altura el texto*/
+
+
+/*vw=width  vh=height estas son medidas relativas*/
+
+
+/*padding va arriba(bottom) derecha(right) abajo(top) izquierda(left)*/
+
+
+/*box-shadow o text-shadow es primero para el costado, segundo para abajo, tercero para el tamaño de la sombra, cuarto el borde y despues el color*/
+
 .Resto {
     position: relative;
     float: left;
@@ -22,11 +40,12 @@ h1 {
     color: rgb(162, 0, 255);
     background-color: rgb(23, 20, 32);
     background: linear-gradient(130deg, #000000a8, #970097);
-    width: 1040px;
+    width: 35.8em;
     height: 58px;
-    padding: 50px;
-    margin-left: 153px;
+    padding: 50px 500px 110px 0px;
+    left: 4.8em;
     font-weight: 400;
+    text-shadow: 7px 7px 10px black, 7px 7px 10px black, 7px 7px 10px black;
     font-family: Texturina, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, cursive;
 }
 
@@ -36,10 +55,10 @@ h1 {
     color: rgb(187, 53, 116);
     bottom: 30px;
     background-color: rgb(33, 29, 46);
-    width: 1262px;
+    background: linear-gradient(130deg, #0f0022a8, #2a002e);
+    width: 54.1em;
     height: auto;
     padding: 15px;
-    background: linear-gradient(130deg, #0f0022a8, #2a002e);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -49,9 +68,10 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    width: 1290px;
+    width: 81.1em;
     height: auto;
     float: left;
+    bottom: 1em;
 }
 
 .olores {
