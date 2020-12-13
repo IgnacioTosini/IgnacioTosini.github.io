@@ -7,42 +7,39 @@ body {
 }
 
 
-/*1em=16px o dependiendo cuantos px le demos a la caja contenedora estas son medidas relativas*/
+/*1em=16px o dependiendo cuantos px le demos a la caja contenedora estas son medidas relativas
 
+/*font-width para hacer maás gruesa o más fina las letras
+line-height para que la letra ocupe más o menos altura el texto
 
-/*font-width para hacer maás gruesa o más fina las letras*/
+vw=width  vh=height estas son medidas relativas
 
+padding va arriba(bottom) derecha(right) abajo(top) izquierda(left)
 
-/*line-height para que la letra ocupe más o menos altura el texto*/
+box-shadow o text-shadow es primero para el costado, segundo para abajo, tercero para el tamaño de la sombra, cuarto el borde y despues el color
 
-
-/*vw=width  vh=height estas son medidas relativas*/
-
-
-/*padding va arriba(bottom) derecha(right) abajo(top) izquierda(left)*/
-
-
-/*box-shadow o text-shadow es primero para el costado, segundo para abajo, tercero para el tamaño de la sombra, cuarto el borde y despues el color*/
+overflow hace que lo que sobra del texto u otra cosa se acomode al bloque, los tipos son auto, scroll, hidden(para que no se vea el scroll)*/
 
 .Resto {
-    position: relative;
+    position: absolute;
     float: left;
     bottom: 10px;
     border-radius: 300px;
     width: 150px;
     height: 150px;
+    bottom: 520px;
 }
 
 h1 {
-    position: relative;
+    position: absolute;
     font-size: xx-large;
-    bottom: 10px;
+    bottom: 490px;
     color: rgb(162, 0, 255);
     background-color: rgb(23, 20, 32);
     background: linear-gradient(130deg, #000000a8, #970097);
     width: 35.8em;
     height: 58px;
-    padding: 50px 500px 110px 0px;
+    padding: 50px 500px 110px 50px;
     left: 4.8em;
     font-weight: 400;
     text-shadow: 7px 7px 10px black, 7px 7px 10px black, 7px 7px 10px black;
@@ -50,7 +47,7 @@ h1 {
 }
 
 .Fila {
-    position: relative;
+    position: absolute;
     font-size: x-large;
     color: rgb(187, 53, 116);
     bottom: 30px;
@@ -59,90 +56,120 @@ h1 {
     width: 54.1em;
     height: auto;
     padding: 15px;
+    bottom: 450px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .Audios {
-    position: relative;
+    position: absolute;
     background-image: url(Fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     width: 81.1em;
-    height: auto;
+    height: 90em;
     float: left;
+    top: 250px;
     bottom: 1em;
 }
 
+
+/*Los Pseudoelementos pueden tener más propiedades como agregarle ::first-letter(para modificar solo esa parte del texto, estos no funcionan en display inline)
+::placeholder, ::selection(este se comporta en linea), ::after y ::before(se usan con content y son elementos inline)*/
+
 .olores {
-    position: relative;
+    position: absolute;
     background-color: rgba(33, 29, 46, 0.815);
     width: 300px;
     font-size: x-large;
     border-radius: 15px;
+    margin-left: 5px;
+    top: 60px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .panza {
-    position: relative;
+    position: absolute;
     background-color: rgba(33, 29, 46, 0.815);
     width: 300px;
     font-size: x-large;
     border-radius: 15px;
+    top: 230px;
+    margin-left: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .Auto {
-    position: relative;
+    position: absolute;
     background-color: rgba(33, 29, 46, 0.815);
     width: 300px;
     font-size: x-large;
     border-radius: 15px;
+    top: 400px;
+    margin-left: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .Saludos {
-    position: relative;
+    position: absolute;
     background-color: rgba(33, 29, 46, 0.815);
     width: 300px;
     font-size: x-large;
     border-radius: 15px;
+    top: 570px;
+    margin-left: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .Clases {
-    position: relative;
+    position: absolute;
     background-color: rgba(33, 29, 46, 0.815);
     width: 300px;
     font-size: x-large;
     border-radius: 15px;
+    top: 740px;
+    margin-left: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .BañosPublicos {
-    position: relative;
+    position: absolute;
     background-color: rgba(33, 29, 46, 0.815);
     width: 300px;
     font-size: x-large;
     border-radius: 15px;
+    top: 910px;
+    margin-left: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .Ascensor {
-    position: relative;
+    position: absolute;
     background-color: rgba(33, 29, 46, 0.815);
     width: 300px;
     font-size: x-large;
+    /*outline es para enmarcar pero sin ocupar espacio*/
     border-radius: 15px;
+    top: 1080px;
+    margin-left: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+
+/*display puede ser en bloque(si se pueden cambiar las resoluciónes), en linea(no se pueden cambiar las resoluciónes) o en bloque en linea
+
+z-index es un elemento para poner un objeto por encima del otro
+
+position sticky funciona como fixed hasta el momento donde se lo pasa haciendo scroll*/
+
 .Bondi {
-    position: relative;
+    position: absolute;
     background-color: rgba(33, 29, 46, 0.815);
     width: 300px;
     font-size: x-large;
     border-radius: 15px;
+    top: 1250px;
+    margin-left: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -157,10 +184,16 @@ h1 {
     height: 100px;
     float: right;
     border-radius: 300px;
-    bottom: 200px;
-    right: 30px;
+    bottom: 100px;
+    left: 80px;
     padding: 3px 3px;
     background: linear-gradient(130deg, #1c39e0, #470147);
+    transition: width 1s, height 1s;
+}
+
+.renzo:hover {
+    width: 130px;
+    height: 130px;
 }
 
 .tochi {
@@ -169,10 +202,16 @@ h1 {
     height: 100px;
     float: right;
     border-radius: 300px;
-    bottom: 200px;
-    left: 60px;
+    bottom: 100px;
+    left: 180px;
     padding: 3px 3px;
     background: linear-gradient(130deg, #1c39e0, #470147);
+    transition: width 1s, height 1s;
+}
+
+.tochi:hover {
+    width: 130px;
+    height: 130px;
 }
 
 .nocita {
@@ -180,11 +219,17 @@ h1 {
     width: 100px;
     height: 100px;
     float: right;
-    border-radius: 300px;
-    left: 435px;
     bottom: 70px;
+    border-radius: 300px;
+    left: 500px;
     padding: 3px 3px;
     background: linear-gradient(130deg, #1c39e0, #470147);
+    transition: width 1s, height 1s;
+}
+
+.nocita:hover {
+    width: 130px;
+    height: 130px;
 }
 
 .pato {
@@ -193,115 +238,164 @@ h1 {
     height: 100px;
     float: right;
     border-radius: 300px;
-    left: 438px;
+    left: 460px;
     bottom: 70px;
     padding: 3px 3px;
     background: linear-gradient(130deg, #1c39e0, #470147);
+    transition: width 1s, height 1s;
 }
 
+.pato:hover {
+    width: 130px;
+    height: 130px;
+}
+
+
+/*objet fit es para imagenes, contain(las resoluciónes de la imagen se acomodan)
+cover(la imagen se ajusta al contenedor)
+scale-down(elige la caracteristica que más convenga)
+
+Objet position (hace que la imagen se adapte al lado que quieras)*/
+
 .patob {
-    position: relative;
-    left: 10px;
+    position: absolute;
+    left: 700px;
 }
 
 .patoig {
-    position: relative;
+    position: absolute;
     width: 30px;
     height: 30px;
     border-radius: 100px;
     float: right;
-    left: 478px;
-    top: 30px;
+    left: 450px;
+    top: 58px;
 }
 
 .texto1 {
-    position: relative;
+    position: absolute;
     width: 30px;
     height: 30px;
     float: right;
     left: 480px;
-    top: 20px;
+    top: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.renzob {
+    position: absolute;
+    left: 1080px;
+    bottom: 10px;
+}
+
 .renzoig {
-    position: relative;
+    position: absolute;
     width: 30px;
     height: 30px;
     border-radius: 100px;
     float: right;
-    left: 78px;
-    bottom: 105px;
+    left: 50px;
+    bottom: 78px;
 }
 
 .texto2 {
-    position: relative;
+    position: absolute;
     float: right;
-    bottom: 115px;
+    bottom: 65px;
     left: 80px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.tochib {
+    position: absolute;
+    left: 820px;
+    bottom: 10px;
+}
+
 .tochiig {
-    position: relative;
+    position: absolute;
     width: 30px;
     height: 30px;
     border-radius: 100px;
     float: right;
-    bottom: 105px;
-    left: 66px;
+    bottom: 78px;
+    left: 160px;
 }
 
 .texto3 {
-    position: relative;
+    position: absolute;
     float: right;
     left: 190px;
-    bottom: 115px;
+    bottom: 65px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .nocitaig {
-    position: relative;
+    position: absolute;
     width: 30px;
     height: 30px;
     border-radius: 100px;
     float: right;
     left: 485px;
-    top: 28px;
+    top: 58px;
 }
 
 .nocitab {
-    position: relative;
-    left: 10px;
+    position: absolute;
+    left: 500px;
 }
 
 .texto4 {
-    position: relative;
+    position: absolute;
     width: 30px;
     height: 30px;
     float: right;
-    left: 485px;
-    top: 20px;
+    left: 515px;
+    top: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+
+/*Las Pseudoclases pueden ser: hover(cuando se pasa el mouse por encima pasa algo)
+:link(cambiar un link que todavia no se visito)
+:visited(para cambiar el color de los links ya visitados)
+:active(al dejar apretado un boton cambia)
+:focus(funciona para los input, y hace que cuando esta enfocado haga el cambio)
+:lang(aca va un parametro como es, en, etc)[modifica el parametro que le hallamos dado antes]
+
+Transition sirve para hacer que un cambio pase en un tiempo determinado*/
+
 .spotify {
-    position: relative;
+    position: absolute;
     border-radius: 20px;
     float: right;
     width: 70px;
     height: 70px;
-    bottom: 25px;
-    right: 20px;
+    top: 1340px;
+    right: 220px;
 }
 
 .spotifyl {
-    position: relative;
+    position: absolute;
     float: right;
     font-size: 35px;
     color: rgb(194, 190, 212);
     background: rgba(225, 225, 225, 0.123);
-    bottom: 10px;
+    top: 1350px;
     text-decoration: none;
     right: 20px;
+    border-radius: 2px;
+    transition: all .5s;
 }
+
+.spotifyl:hover {
+    background-color: rgb(37, 39, 46);
+    color: rgb(83, 188, 207);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    bottom: 30px;
+    height: 55px;
+}
+
+
+/*cursor(para cambiar el cursor cuando pase por un elemento)*/
