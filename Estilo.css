@@ -40,7 +40,6 @@ h1 {
     background-color: rgb(23, 20, 32);
     background: linear-gradient(130deg, #000000a8, #970097);
     width: 35.8em;
-    min-width: 710px;
     height: 58px;
     padding: 50px 500px 110px 50px;
     left: 4.8em;
@@ -397,26 +396,20 @@ Objet position (hace que la imagen se adapte al lado que quieras)*/
 
 Transition sirve para hacer que un cambio pase en un tiempo determinado*/
 
-.todospoti {
-    position: absolute;
-    top: 1600px;
-    left: 1050px;
-    width: 205px;
-}
-
 .spotify {
     position: relative;
     border-radius: 20px;
     width: 70px;
     height: 70px;
-    right: 70px;
+    top: 1600px;
+    left: 1000px;
 }
 
 .spotifyl {
     position: absolute;
-    float: right;
     font-size: 35px;
-    top: 10px;
+    left: 1070px;
+    top: 1610px;
     color: rgb(194, 190, 212);
     background: rgba(225, 225, 225, 0.123);
     text-decoration: none;
@@ -435,29 +428,33 @@ Transition sirve para hacer que un cambio pase en un tiempo determinado*/
 
 @media only screen and (max-width: 700px) {
     body {
-        width: 690px;
+        width: auto;
         max-width: 800px;
         height: auto;
         background-image: url(Fondo.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-        color: white;
     }
     .Resto {
         position: absolute;
-        width: 115px;
-        height: 115px;
+        width: 135px;
+        height: 135px;
+        top: 70px;
     }
     h1 {
         position: absolute;
-        right: 70px;
-        width: 40px;
-        padding: 50px 0px 110px px;
+        width: 220px;
+        top: 45px;
+        left: 140px;
+        max-width: 650px;
+        padding: 30px 100px 110px 0px;
     }
     .Fila {
         position: absolute;
         width: 360px;
+        top: 210px;
+        padding: 15px 10px 50px 10px;
     }
     .Audios {
         position: absolute;
@@ -471,13 +468,13 @@ Transition sirve para hacer que un cambio pase en un tiempo determinado*/
     }
     .spotify {
         position: absolute;
-        right: 1170px;
-        top: 470px;
+        top: 2100px;
+        left: 0px;
     }
     .spotifyl {
         position: absolute;
-        right: 960px;
-        top: 480px;
+        left: 80px;
+        top: 2110px;
         width: 205px;
     }
 }
