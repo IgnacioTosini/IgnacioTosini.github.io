@@ -309,7 +309,8 @@ Objet position (hace que la imagen se adapte al lado que quieras)*/
     height: 30px;
     float: right;
     left: 480px;
-    top: 50px;
+    top: 65px;
+    text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -332,8 +333,9 @@ Objet position (hace que la imagen se adapte al lado que quieras)*/
 .texto2 {
     position: absolute;
     float: right;
-    bottom: 65px;
+    bottom: 85px;
     left: 80px;
+    text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -357,7 +359,8 @@ Objet position (hace que la imagen se adapte al lado que quieras)*/
     position: absolute;
     float: right;
     left: 190px;
-    bottom: 65px;
+    bottom: 85px;
+    text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -382,7 +385,8 @@ Objet position (hace que la imagen se adapte al lado que quieras)*/
     height: 30px;
     float: right;
     left: 515px;
-    top: 50px;
+    top: 65px;
+    text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
