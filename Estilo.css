@@ -305,6 +305,7 @@ Objet position (hace que la imagen se adapte al lado que quieras)*/
 
 .texto1 {
     position: absolute;
+    color: white;
     width: 30px;
     height: 30px;
     float: right;
@@ -332,6 +333,7 @@ Objet position (hace que la imagen se adapte al lado que quieras)*/
 
 .texto2 {
     position: absolute;
+    color: white;
     float: right;
     bottom: 85px;
     left: 80px;
@@ -357,6 +359,7 @@ Objet position (hace que la imagen se adapte al lado que quieras)*/
 
 .texto3 {
     position: absolute;
+    color: white;
     float: right;
     left: 190px;
     bottom: 85px;
@@ -381,6 +384,7 @@ Objet position (hace que la imagen se adapte al lado que quieras)*/
 
 .texto4 {
     position: absolute;
+    color: white;
     width: 30px;
     height: 30px;
     float: right;
